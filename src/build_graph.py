@@ -11,6 +11,7 @@ from operator import itemgetter
 
 
 #TODO: probably a better way to do this? Maybe you don't even want to?
+#TODO: edge weight filtering 
 def filter_graph(graph, num_closest = 5):
     '''
     Removing all but the num_closest lowest weight edges for each node.
